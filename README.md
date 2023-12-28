@@ -14,3 +14,5 @@ Spike Test => To simulate a scenario where an application experiences a sudden a
 Breakpoint Test => Determine the maximum capacity the application
 
 Soak Test => Load Test with duration 12-24 hours or longer. Used to identify issues like memory leak and resource depletion that may only appear after prolonged periods of continuous use
+
+https://designer.mocky.io/
