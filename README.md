@@ -23,3 +23,5 @@ k6 run file-name.js
 k6 run --http-debug file-name.js
 k6 run --http-debug="full" file-name.js
 
+
+k6 run -e BASE_URL=https://test-api.k6.io environment-variables.js
