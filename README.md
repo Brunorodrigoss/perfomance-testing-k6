@@ -25,3 +25,9 @@ k6 run --http-debug="full" file-name.js
 
 
 k6 run -e BASE_URL=https://test-api.k6.io environment-variables.js
+
+
+https://grafana.com/products/cloud/k6/
+k6 login cloud --token YOURGRAFANAK6TOKENHERE
+k6 cloud k6-clould.js
+k6 run k6-cloud.js -o cloud
