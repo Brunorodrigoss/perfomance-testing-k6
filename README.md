@@ -31,3 +31,15 @@ https://grafana.com/products/cloud/k6/
 k6 login cloud --token YOURGRAFANAK6TOKENHERE
 k6 cloud k6-clould.js
 k6 run k6-cloud.js -o cloud
+
+k6 run first-script.js --vus 1 --duration 10s --iteration 1
+k6 run first-script.js --u 1 --d 10s --i 1
+
+https://badssl.com/
+
+k6 run insecure-request.js --insecure-skip-tls-verify
+
+k6 run first-script.js --out json=full_results.json
+
+https://k6.io/docs/using-k6/k6-options/how-to/
+https://k6.io/docs/using-k6/k6-options/reference/
